@@ -1,0 +1,111 @@
+.block-number {
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.75em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #191919;
+    -webkit-transition: 0.3s ease-out;
+    transition: 0.3s ease-out
+}
+
+.block-number:hover {
+    opacity: 1
+}
+
+.block-number::after {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 6px;
+    margin-bottom: 2px;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 3px solid #191919
+}
+
+.block-number a:hover,
+.block-number a:focus {
+    color: #191919
+}
+
+.demo-section .main-content .section,
+.demo-topbar .main-content .topbar,
+.demo-navbar .main-content .navbar,
+.demo-header .main-content .header,
+.demo-footer .main-content .footer {
+    margin: 30px 20px 100px;
+    border: 1px solid #f5f6f7;
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05)
+}
+
+.demo-topbar .main-content .topbar,
+.demo-navbar .main-content .navbar {
+    position: static;
+    margin: 0
+}
+
+.demo-preview {
+    margin-bottom: 3rem
+}
+
+.demo-preview .card-img-top {
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100%;
+    height: 245px;
+    -webkit-transition: 5s linear;
+    transition: 5s linear
+}
+
+.demo-preview:hover .card-img-top {
+    background-position: center 100%
+}
+
+.demo-preview .card-body {
+    border-top: 1px solid #f3f4f5;
+    background-color: #ecf2f7;
+}
+
+@media (max-width: 400px) {
+    body>.footer .social a:last-child,
+    body>.footer .nav a:last-child {
+        display: none
+    }
+}
+
+#image, #stories
+{
+    background-color: #ecf2f7;
+}
+
+
+@media (max-width: 991.98px)
+
+{
+    .section {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (-o-device-pixel-ratio: 3/2), 
+only screen and (min-device-pixel-ratio: 1.5)
+{
+
+    #devfestGIF
+     {
+       display:none;
+    }
+    .section-header {
+        text-align: center;
+        max-width: 70%;
+        margin: 0 auto 2rem;
+    }
+}
+/*# sourceMappingURL=style.css.map */
