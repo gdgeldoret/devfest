@@ -1,5 +1,7 @@
+
 // A project PWA Fire written. All writes reserved https://pwafire.org 2018.
         // Author : Maye Edwin https://maye.gdgmoi.com
+
   self.addEventListener('fetch', function(event) {
             event.respondWith(caches.open('cache').then(function(cache) {
             return cache.match(event.request).then(function(response) {
@@ -40,9 +42,8 @@
             });
             }));
             });
-          
+            
             self.addEventListener('install', function(event) {
-              // The promise that skipWaiting() returns can be safely ignored.
               self.skipWaiting();
               console.log("Latest version installed!");
             });
