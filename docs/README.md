@@ -1,1 +1,1 @@
-## Setting up for devfest
+## Setting up for your devfest
