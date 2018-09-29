@@ -25,6 +25,20 @@
     border-top: 3px solid #191919
 }
 
+.mb-6
+{
+    color: #ffff;
+}
+.speakers
+{
+    position: relative;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 146px;
+    padding-bottom: 90px;
+}
 .block-number a:hover,
 .block-number a:focus {
     color: #191919
@@ -102,6 +116,11 @@ only screen and (min-device-pixel-ratio: 1.5)
      {
        display:none;
     }
+
+    .speaker-banner img
+   {
+     display: none;
+   }
     .section-header {
         text-align: center;
         max-width: 70%;
@@ -113,3 +132,8 @@ only screen and (min-device-pixel-ratio: 1.5)
     }
 }
 /*# sourceMappingURL=style.css.map */
+
+.speaker-banner img
+{
+  width: 200px;
+}
