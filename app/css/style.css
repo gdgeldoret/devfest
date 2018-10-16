@@ -137,3 +137,26 @@ only screen and (min-device-pixel-ratio: 1.5)
 {
   width: 200px;
 }
+
+.section {
+    position: relative;
+    border-bottom: none;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.section-header {
+    text-align: center;
+    max-width: 70%;
+    margin: 0 auto 4rem;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #FBAB18;
+    border-color: #FBAB18;
+}
