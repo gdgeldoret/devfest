@@ -39,6 +39,13 @@
     padding-top: 146px;
     padding-bottom: 90px;
 }
+
+.card-img-top {
+    position: relative;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
 .block-number a:hover,
 .block-number a:focus {
     color: #191919
