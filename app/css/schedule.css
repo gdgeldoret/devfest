@@ -1,0 +1,55 @@
+
+/* 
+https://codepen.io/johnkeith/pen/kumwf 
+*/
+  .schedule-container {
+    border-radius: 3.5px;
+    background: white;
+    border-bottom: 50px solid #4285FA;
+    margin: 0 auto;
+    padding-top: 5px;
+    width: 100%;
+  }
+  .schedule-container h1 {
+    border-bottom: 30px solid #4285FA;
+    padding: 20px;
+    font-size: 20px;
+  }
+  .schedule-container ul {
+    padding: 0px 0px 0 20px;
+    list-style-type: none;
+  }
+  .schedule-container ul li {
+    padding: 15px;
+    border-bottom: 1px solid #4285FA;
+  }
+
+  .schedule-container ul li .frame {
+    display: table;
+    width: 100%;
+  }
+  .schedule-container ul li .frame .session,
+  .schedule-container ul li .frame .task,
+  .schedule-container ul li .frame .full-time {
+    display: table-cell;
+  }
+  .schedule-container ul li .frame .session {
+    border: 1px solid #4285FA;
+    font-size: 20px;
+    font-weight: bold;
+    height: auto;
+    padding: 8px;
+    text-align: center;
+    width: 15px;
+  }
+  .schedule-container ul li .frame .task {
+    font-size: 15px;
+    padding: 0 10px 0 10px;
+    text-align: left;
+  }
+  .schedule-container ul li .frame .full-time {
+    min-width: 75px;
+    padding: 0 20px 0 10px;
+    text-align: right;
+  }
+  
