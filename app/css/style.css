@@ -9,6 +9,12 @@
     transition: 0.3s ease-out
 }
 
+.step-item {
+    display: -webkit-box;
+    display: flex;
+    padding: 0.2rem 0;
+}
+
 .block-number:hover {
     opacity: 1
 }
