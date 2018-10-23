@@ -14,6 +14,14 @@
     display: flex;
     padding: 0.2rem 0;
 }
+.media-list
+{
+    width: 100%;
+}
+.session-title, h6
+{
+    color: #4285FA;
+}
 
 .block-number:hover {
     opacity: 1
