@@ -9,6 +9,10 @@
     transition: 0.3s ease-out
 }
 
+.partner-sm img {
+    height: 30px;
+}
+
 .step-item {
     display: -webkit-box;
     display: flex;
@@ -174,6 +178,12 @@ only screen and (min-device-pixel-ratio: 1.5)
     text-align: center;
     max-width: 70%;
     margin: 0 auto 4rem;
+}
+
+.section-header-2 {
+    text-align: center;
+    max-width: 70%;
+    margin: 0 auto 2rem;
 }
 
 .btn-info {
