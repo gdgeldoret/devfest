@@ -11,10 +11,11 @@ html, body {
 }
 
 #info {
-	background: #4285F4;
-	padding: 12px 10px;
-	margin-bottom: 1px;
-	color: #fff;
+    background: #4285F4;
+    padding: 12px 10px;
+    color: #fff;
+    align-self: center;
+    margin: 5px;
 }
 
 #info h1 {
