@@ -1,6 +1,7 @@
 
-// A project PWA Fire written. All writes reserved https://pwafire.org 2018.
-        // Author : Maye Edwin https://maye.gdgmoi.com
+/* A project PWA Fire written. All writes reserved https://pwafire.org 2018.
+        Author : Maye Edwin https://twitter.com/mayeedwin1
+        */
 
   self.addEventListener('fetch', function(event) {
             event.respondWith(caches.open('cache').then(function(cache) {
