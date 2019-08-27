@@ -249,17 +249,20 @@ only screen and (min-device-pixel-ratio: 1.5)
     
 }
 
-.navbar-light .nav-navbar>.nav-item>.nav-link, .navbar-light .nav-navbar>.nav-link, .navbar-stick-light.stick .nav-navbar>.nav-item>.nav-link, .navbar-stick-light.stick .nav-navbar>.nav-link {
+.navbar-light .nav-navbar>.nav-item>.nav-link, 
+.navbar-light .nav-navbar>.nav-link, .navbar-stick-light.stick 
+.nav-navbar>.nav-item>.nav-link, .navbar-stick-light.stick 
+.nav-navbar>.nav-link {
     color: rgb(204, 214, 246);
 }
 
-.lead {
-    color:rgb(100, 255, 218)!important;
+.section {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
 }
 
-
-.btn-white {
-    color: #6f6e73;
-    background-color: rgb(23, 42, 69)!important;
-    border-color: rgb(23, 42, 69)!important;
+.section-header {
+    text-align: center;
+    max-width: 70%;
+    margin: 0 auto 3rem!important;
 }
