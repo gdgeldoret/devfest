@@ -11,32 +11,24 @@
 
   gtag('config', 'UA-107695699-1');
 </script>
-
-        <!-- register service worker -->
-        <script>
-
-            if ('serviceWorker' in navigator) 
-            {
-            window.addEventListener('load', function() {
-              navigator.serviceWorker.register('/service-worker.js')
-              .then(function() { console.log("Service Worker Registered, Cheers to PWA Fire!"); });
-            }
-            );
-          }  
-          </script> 
-      <!-- end of service worker -->
+<!-- register service worker -->
+<script>
+  if ('serviceWorker' in navigator){
+    window.addEventListener('load', () => {
+       navigator.serviceWorker.register('./service-worker.js')
+    .then(() => { console.log('[ PWA Fire Bundle ] Service Worker Registered'); });
+   });
+ }
+</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Join us in Eldoret for DevFest Rift Valley 2019. Everyone is welcome! Let's build better together!">
     <meta name="keywords" content="gdg, devfest , gdg eldoret, Eldoret, DevFest, GDG DevFest, DevFest Rv, DevFest Rift Valley">
     <title>DevFest Rift Valley 2019 - Better Together</title>
     <!-- start of web manifest -->
-    <link rel="manifest" href="manifest.json">
-    <!-- end of web manifest -->
+    <link rel="manifest" href="./app.webmanifest">
     <!-- theme-color -->
     <meta name="theme-color" content="#fff" />
-    
-    <!-- end-theme-color -->
     <!-- Styles -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/page.min.css" rel="stylesheet">
@@ -368,7 +360,7 @@
   
                   <div class="card-body">
                     <h5 class="card-title">2017 Recap Photos</h5>
-                    <p class="mb-0">We had our first season of devfestRV in 2017 in Eldoret. It was fun and super amazing with morethan 300 participants.</p>
+                    <p class="mb-0">We had our first season of DevFest Rift Valley in 2017 in Eldoret. It was fun and super amazing with morethan 300 participants.</p>
                   </div>
   
                   <div class="card-footer text-right">
@@ -511,7 +503,7 @@
               <div class="card shadow-3">
                 <div class="card-body px-6">
                   
-                  <p class="text-quoted mb-5">I talked about <a href="https://twitter.com/NdanuMaryanne/status/931157021797339137" target="_blank" rel="noopener">"Shipping the product"</a> at the devfestRV17 nad that was super exciting!</p>
+                  <p class="text-quoted mb-5">I talked about <a href="https://twitter.com/NdanuMaryanne/status/931157021797339137" target="_blank" rel="noopener">"Shipping the product"</a> at the DevFest Rift Valley 2017 nad that was super exciting!</p>
                   <div class="media align-items-center pb-0">
                     <img class="avatar avatar-xs mr-3" src="images/people/annndanu.png" alt="Ndanu M">
                     <div class="media-body lh-1">
@@ -594,7 +586,7 @@
 
             <div class="col-md-6 align-self-center text-center text-md-left mb-7 mb-md-0">
               <h2>Get involved</h2>
-              <p class="lead">While no two events will be exactly alike, devfestRV will, at its core, be powered by a shared belief that when developers come together to exchange ideas, amazing things can happen.</p>
+              <p class="lead">While no two events will be exactly alike, DevFest Rift Valley will, at its core, be powered by a shared belief that when developers come together to exchange ideas, amazing things can happen.</p>
 
               <div class="gap-xy-2 mt-7">
                 <a class="btn btn-lg btn-round btn-white" href="https://twitter.com/devfestRV" rel="noopener" target="_blank"><i class="fab fa-twitter lead-1 mr-2"></i>Tweet us</a>
