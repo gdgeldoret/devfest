@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Product%20Sans');
+
+svg {
+       font-family: Product Sans, Helvetica, Arial, sans-serif !important;
+}
+
 .block-number {
     text-align: center;
     font-weight: bold;
@@ -243,5 +249,17 @@ only screen and (min-device-pixel-ratio: 1.5)
     
 }
 
+.navbar-light .nav-navbar>.nav-item>.nav-link, .navbar-light .nav-navbar>.nav-link, .navbar-stick-light.stick .nav-navbar>.nav-item>.nav-link, .navbar-stick-light.stick .nav-navbar>.nav-link {
+    color: rgb(204, 214, 246);
+}
+
+.lead {
+    color:rgb(100, 255, 218)!important;
+}
 
 
+.btn-white {
+    color: #6f6e73;
+    background-color: rgb(23, 42, 69)!important;
+    border-color: rgb(23, 42, 69)!important;
+}
